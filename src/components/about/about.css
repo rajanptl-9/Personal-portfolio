@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
 .about_subcontainer{
-    width:100%;
+    min-width:75%;
     height: fit-content;
     display:flex;
     flex-direction:column;
@@ -10,16 +10,16 @@
 }
 
 .about_me{
-    width: 100%;
+    width: 68%;
     height: fit-content;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 24px;
 }
 
 .image_div{
-    width: 320px;
-    height: 320px;
+    width: 290px;
+    height: 290px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(28, 27, 97);
@@ -27,7 +27,7 @@
     background-size: 110% 105%;
     background-position: top;
     background-repeat: no-repeat;
-    border-radius: 35px;
+    border-radius: 8px;
 }
 
 .about_content{
@@ -40,6 +40,7 @@
     align-items: left;
     background-color: white;
     box-shadow: 1px 1px 1.5px #233b5a;
+    flex-grow: 1;
 }
 #about_me_title {
     width: 100%;
@@ -58,6 +59,7 @@
     line-height: 26px;
     padding: 10px 0;
     font-family: 'Nunito', sans-serif;
+    text-align: justify;
 }
 
 #button {
@@ -75,6 +77,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .about_me{
+        width: 94%;
+    }
     .image_div{
         display: none;
     }
@@ -82,7 +87,7 @@
         min-height: 86vh;
     }
     .about_content{
-        width: 94%;
+        width: 100%;
         align-items: center;
     }
     #about_me_title {

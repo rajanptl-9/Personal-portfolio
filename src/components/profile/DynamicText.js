@@ -3,7 +3,7 @@ import './profile.css';
 
 const TypingEffect = () => {
   const [text, setText] = useState('');
-  const phrases = ['Student', 'Web Developer', 'Software Developer'];
+  const phrases = ['Web Developer', 'Software Developer'];
   const typingSpeed = 100; 
   const erasingSpeed = 100; 
   const pauseBetweenPhrases = 500; 

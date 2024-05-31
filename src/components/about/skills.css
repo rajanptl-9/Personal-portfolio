@@ -45,6 +45,12 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.skill-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1200px) {
     .skill_container{
         width:94%;
