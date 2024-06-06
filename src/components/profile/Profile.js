@@ -14,7 +14,7 @@ function Profile() {
                     <div id="headfont"> Rajan Patel.</div>
                     <DynamicText />
                     <div id="description">Recently completed the fourth year of my Bachelor's in Technology program, majoring in Computer Science, at Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat.</div>
-                    <a href="https://drive.google.com/file/d/1R7B56hkfdTHY4N2IPFKHN1sQmvnAkpDJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                    <a href="https://drive.google.com/file/d/1GMjI3DbItg-IvEIc12NQALGecg-Bmx7K/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                         <div id="downloadcv">Download CV <GrDocumentDownload style={{ paddingLeft: "6px", fontSize:"26px" }} /></div>
                     </a>
                     <div className="socialmedia">
