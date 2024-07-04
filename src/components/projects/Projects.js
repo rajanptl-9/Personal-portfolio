@@ -6,6 +6,7 @@ import notes from "./notes.jpeg";
 import ecomm from "./ecomm.jpg";
 import adminpanel from "./adminpanel.png";
 import optimization from "./optimization.png"
+import news from "./news.png"
 import "./projects.css";
 
 function Projects() {
@@ -20,7 +21,7 @@ function Projects() {
                     <ProjectCard img={notes} title="Let-Note" desc="I've developed a web app enabling users to create accounts, log in securely, manage private notes exclusively visible to them, and perform CRUD operations on these notes." link="https://github.com/rajanptl-9/Let-Note-Frontend" />
                     <ProjectCard img={movies} title="Movie Recommendation" desc="Using machine learning, the project suggests related movies upon user search, displayed through a TKinter GUI, leveraging natural language processing." link="https://github.com/rajanptl-9/Movie_Recommendation_System" />
                     <ProjectCard img={optimization} title="Scheduling Optimization" desc="A project focused on optimizing workflow scheduling in cloud computing with scheduling algorithms to enhance efficiency, resource allocation, and performance." link="https://github.com/rajanptl-9/CloudSim-Workflow-Scheduling-Optimization" />
-                    <ProjectCard img={optimization} title="Get Latest NEWS" desc="A project developing a dynamic frontend news website integrating NewsAPI for real-time news updates and user-friendly browsing." link="https://github.com/rajanptl-9/Get-NEWS" />
+                    <ProjectCard img={news} title="Get Latest NEWS" desc="A project developing a dynamic frontend news website integrating NewsAPI for real-time news updates and user-friendly browsing." link="https://github.com/rajanptl-9/Get-NEWS" />
                 </div>
             </div>
         </div>
